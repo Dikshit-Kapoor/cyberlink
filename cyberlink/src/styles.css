@@ -1,0 +1,15 @@
+.carou {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+}
+.carousel {
+background-color: #b009de;
+  display: grid;
+  box-shadow: -5px 6px 20px 3px #0e23ab;
+  height: 550px;
+  margin-left: 15px;
+  width: 1220px;
+}

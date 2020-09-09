@@ -1,0 +1,47 @@
+.front {
+  background-image: url("https://i.pinimg.com/originals/d4/29/3c/d4293c01aef20b33bd7e9d6dd79b89b8.jpg");
+  height: 780px;
+  margin-top: 30px;
+}
+.front > h2 {
+  margin-left: 20px;
+}
+.frontright {
+  display: flex;
+  margin-left: 600px;
+  margin-right: 10px;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.frontright > p {
+  color: black;
+  margin-top: 1px;
+}
+.frontright > Button {
+  color: black;
+  margin-top: none;
+  size: 10px;
+}
+.frontmiddle {
+  display: flex;
+  padding: 10px;
+  height: 200px;
+  width: 700px;
+}
+.frontmiddle > p {
+  font-size: 30px;
+  padding: 15px;
+  
+}
+.frontmiddle2 {
+  padding: 10px;
+  margin-left: 150px;
+  font-size:23px;
+}
+.button {
+  padding: 10px ;
+  size: 200px;
+  margin-left: 350px;
+
+}
