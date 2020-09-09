@@ -1,0 +1,16 @@
+.app{
+  display: inline;
+  overflow: scroll;
+   
+}
+
+.image {
+  height: 50px;
+  width: 50px;
+}
+.hello {
+  margin-left: 700px;
+}
+.hello > h2 {
+  color: #730362;
+}

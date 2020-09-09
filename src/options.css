@@ -1,0 +1,25 @@
+.center {
+  text-align: center;
+  padding: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  padding: 20px;
+  margin: 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
