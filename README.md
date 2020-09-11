@@ -3,10 +3,9 @@ This is a demo app for a cyberlink projec
 ### Installation
 
 ```
-$ pip install selenium
+$ npm init
 ```
 ```
-$ pip install requests
+$ npm start
 ```
-```
-$ pip install pandas
+
