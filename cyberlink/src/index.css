@@ -4,9 +4,9 @@
    
 }
 
-.image {
-  height: 50px;
-  width: 50px;
+.app >image {
+  height: 40px;
+  width: 40px;
 }
 .hello {
   margin-left: 700px;

@@ -6,7 +6,9 @@ import Options from "./Options";
 import { motion } from "framer-motion";
 const TRANSITION_TIME_OPACITY_S = 1;
 const TRANSITION_TIME_ROTATE_S = 2;
-import ReactLogo from "./logo.svg";
+import ReactLogo from "./assets/logo.svg";
+
+
 
 export default function App({ img, className }) {
   return (
@@ -14,12 +16,6 @@ export default function App({ img, className }) {
      <div >
         <Front />
       </div><br />
-      <br />
-      
-      <div >
-        <Carou />
-      </div>
-      <br />
       <br />
       <div className="hello">
         <h2>
@@ -44,11 +40,12 @@ export default function App({ img, className }) {
           <img src={ReactLogo} style={{}} />
         </motion.div>
       </div>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/>
+<br/><br/><br/>
+<div >
+        <Carou />
+      </div>
+      <br />
+      <br /><br /><br/>
 
       <div id="options">
     <Options />

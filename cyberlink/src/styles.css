@@ -6,10 +6,36 @@
   height: 70vh;
 }
 .carousel {
-background-color: #b009de;
+background-color:#b0f0f7;
   display: grid;
-  box-shadow: -5px 6px 20px 3px #0e23ab;
+  box-shadow: -5px 6px 20px 3px #0d9fbd;
   height: 550px;
   margin-left: 15px;
   width: 1220px;
+}
+
+.center {
+  text-align: center;
+  padding: 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.card {
+  padding: 20px;
+  margin: 5px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.2);
 }

@@ -1,6 +1,6 @@
 import React from "react";
-import Tools from "./Tools";
-import "./options.css"
+
+import "./styles.css"
 import pic1 from "./assets/icons8-cancel-100.png";
 import pic2 from "./assets/icons8-dribbble-100.png";
 import pic3 from "./assets/icons8-instagram-100.png";
@@ -47,30 +47,28 @@ class Options extends React.Component {
     };
   }
 
-  render() {
-    const tools = this.state.tools.map((item) => {
-      return (
-        <Tools
-          icon={item.icon}
-          heading={item.heading}
-          desc={item.description}
-        />
-      );
-    });
-
-    return (
-      <div>
-        <div className="center">
-          <h1>
-            Advanced & complete tool helping you
-            <br /> make profitable trades
-          </h1>
-        </div>
-
-        <div className="grid">{tools}</div>
+  render(){
+ 
+  
+    const items=   this.state.tools.map((item) => {
+         return(
+    <div className="card">
+    <img src={item.icon} alt="icon image" />
+    
+    <h1>{item.heading}</h1>
+    <p>{item.description}</p>
+    
+    </div>
+         )
+       })
+       return(
+    <div className="grid">
+    {items}
       </div>
-    );
-  }
+       )
+    
+    }
+    
 }
 
 export default Options;
